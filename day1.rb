@@ -10,7 +10,7 @@ class Part1
   end
 end
 
-p "DAY1 #Part2: #{Part1.new(File.open('day1.txt')).solution}"
+p "DAY1 #Part1: #{Part1.new(File.open('day1.txt')).solution}"
 
 class Part2
   attr_reader :lines
